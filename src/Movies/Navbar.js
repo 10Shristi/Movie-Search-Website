@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <React.Fragment>
       <nav className=" p-4 fixed top-0 left-0 w-full bg-black  z-50 ">
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
+        <div className="max-w-full mx-auto flex justify-between items-center">
        
           <div className="flex-shrink-0 ">
             {/* <span className="text-blue-400 text-4xl font-bold cursor-pointer ml-3">
