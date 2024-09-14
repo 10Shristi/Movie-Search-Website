@@ -35,7 +35,7 @@ function WatchLater({ movieTitle, moviePoster, movieID }) {
         }
         setTimeout(() => {
             setMessage('');
-        }, 1000);
+        }, 1500);
 
         localStorage.setItem('currentUser', JSON.stringify(currentUser));
         setUser(currentUser);
